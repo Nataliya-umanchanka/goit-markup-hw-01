@@ -6,15 +6,11 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <header>
       <a href="./index.html">WebStudio</a>
-      <div class="wrapper" style="max-width: 1440px">
+      <div class="wrapper">
         <nav>
           <ul>
             <li><a href="#">Studio</a></li>
@@ -34,53 +30,107 @@
 
     <main>
       <section class="main-page">
-        <div class="wrapper main-page-text-container" color:blue>
-          <h2>Effective Solutions for Your Business</h2>
+        <div class="wrapper main-page-text-container">
+          <h1>Effective Solutions for Your Business</h1>
           <button type="button" class="form-btn" id="launch-btn">
             Order Service
           </button>
         </div>
       </section>
+      <h2>This is the content of the section</h2>
 
-      <section class="main-page-text-container">
-        <div>
-          <h2>Strategy</h2>
-          <p>
-            Our goal is to identify the business problem to walk away with the
-            perfect and creative solution.
-          </p>
-
-          <h2>Punctuality</h2>
-          <p>
-            Bring the key message to the brand's audience for the best price
-            within the shortest possible time.
-          </p>
-
-          <h2>Features</h2>
-          <p>
-            Bring the key message to the brand's audience for the best price
-            within the shortest possible time.
-          </p>
-
-          <h2>Diligence</h2>
-          <p>
-            Research and confirm brands with the strongest digital growth
-            opportunities and minimize risk.
-          </p>
-
-          <h2>Technologies</h2>
-          <p>
-            Design practice focused on digital experiences. We bring forth a
-            deep passion for problem-solving.
-          </p>
-        </div>
+      <section class="features">
+        <ul
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+          "
+        >
+          <li style="flex: 1">
+            <h3>Strategy</h3>
+            <p>
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
+          <li style="flex: 1">
+            <h3>Punctuality</h3>
+            <p>
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
+          <li style="flex: 1">
+            <h3>Diligence</h3>
+            <p>
+              Research and confirm brands with the strongest digital growth
+              opportunities and minimize risk.
+            </p>
+          </li>
+          <li style="flex: 1">
+            <h3>Technologies</h3>
+            <p>
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
       </section>
 
-      <section class="main-page-text-container">
-        <img src="images/img1.jpg" alt="Image1" />
-        <img src="images/img2.jpg" alt="Image2" />
-        <img src="images/img3.jpg" alt="Image3" />
-        <img src="images/img4.jpg" alt="Image4" />
+      <section class="team">
+        <ul
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+          "
+        >
+          <li style="flex: 1">
+            <img
+              src="images/img1.jpg"
+              alt="Mark Guerrero"
+              width="264"
+              height="260"
+            />
+            <h3>Mark Guerrero</h3>
+            <p>Product Designer</p>
+          </li>
+          <li style="flex: 1">
+            <img
+              src="images/img2.jpg"
+              alt="Tom Ford"
+              width="264"
+              height="260"
+            />
+            <h3>Tom Ford</h3>
+            <p>Frontend Developer</p>
+          </li>
+          <li style="flex: 1">
+            <img
+              src="images/img3.jpg"
+              alt="Camila Garcia"
+              width="264"
+              height="260"
+            />
+            <h3>Camila Garcia</h3>
+            <p>Marketing</p>
+          </li>
+          <li style="flex: 1">
+            <img
+              src="images/img4.jpg"
+              alt="Daniel Wilson"
+              width="264"
+              height="260"
+            />
+            <h3>Daniel Wilson</h3>
+            <p>UI Designer</p>
+          </li>
+        </ul>
       </section>
     </main>
 
